@@ -1,0 +1,22 @@
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  width: 100vw;
+  overflow-x: hidden ;
+  display: flex;
+}
+
+h4{
+  font-weight: bold;
+}
+
+.main.right {
+  width: 70vw;
+  background: #000;
+  bac
+}
+
+.main.left {
+  width: 50vw;
+}

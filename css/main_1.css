@@ -1,0 +1,91 @@
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+a{
+  color: white
+}
+
+header .container{
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #A5352E;
+}
+
+header .container .logo h3{
+  color: #fff;
+  font-size: 2.1rem
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background:  #26160B;
+  padding: 20px;
+}
+nav a {
+  margin: 10px;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw;
+  padding: 1.5rem;
+}
+
+main aside.right{
+  text-align:center;
+  max-width: 30vw;
+}
+
+main aside.right .image_card{
+  max-width: 70%;
+  margin: 2rem auto;
+
+}
+
+main aside.right .image_card img{
+  max-width: 100%;
+  margin: 0;
+}
+
+main aside.right .image_card h4{
+  margin-bottom: 9px;
+  font-weight: bold;
+}
+
+main section{
+  max-width: 69vw
+}
+
+main section .main_section p{
+  margin: 1.5rem 0;
+  line-height: 1.5
+}
+
+main section .main_section h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+main section .hero{
+  max-width: 100%;
+  margin-right: 3rem;
+}
+
+main section .hero img{
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+footer.foot{
+  background:  #26160B;
+  color: #fff;
+  padding: 1.5rem;
+  line-height: 1.5
+}
